@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+body {
+	font-size: 18px;
+	font-family: "Quicksand", sans-serif;
+	background-color: #fff;}
+header {
+	padding: 25px 0;
+	background-color: #f7f7f7;}
+main {
+	padding: 50px 0;}
+img {
+	border-radius: 5px;
+	max-width: 100%;}
+.tartalom p {
+	margin-top: 15px;}
+img:nth-child(1n+2) {
+	margin-top: 25px;}
+h1 {
+	margin-bottom: 50px;
+	font-weight: 500;
+	font-size: 40px;}
+.tartalom {
+	margin: 0px auto;
+	max-width: calc(100% - 40px);
+	width: 1024px;}
+.sor {
+	display: flex;
+	margin-right: -15px;
+	margin-left: -15px;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: center;}
+.oszlop {
+	margin: 0 15px;}
+.oszlop-2 {
+	width: calc(16.6666% - 30px);}
+.oszlop-3 {
+	width: calc(25% - 30px);}
+.oszlop-4 {
+	width: calc(33.3333% - 30px);}
+.oszlop-5 {
+	width: calc(41.6666% - 30px);}
+.oszlop-6 {
+	width: calc(50% - 30px);}
+.oszlop-8 {
+	width: calc(66.6666% - 30px);}
+.oszlop-12 {
+	width: calc(100% - 30px);}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 10px;}
+nav ul li:last-child {
+	float: right;}
+nav ul li a {
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 5px;}
+nav ul li a.active {
+	background-color: #c8bfe7;}
+footer {
+	padding: 25px 0;
+	background-color: #f7f7f7;
+	text-align: center;}
